@@ -5,8 +5,7 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const appRouter = require('./routes');
 const app = express();
-
-
+require('./config/mongoose');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
