@@ -1,4 +1,3 @@
-
 class AuthController {
 
     currentUser(req, res) {
